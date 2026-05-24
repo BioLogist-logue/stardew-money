@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BioLogist-logue.github.io/stardew-money/static/css/main.e6c13ad2.css",
+    "main.js": "/BioLogist-logue.github.io/stardew-money/static/js/main.80f1cee8.js",
+    "static/js/453.5d79b40f.chunk.js": "/BioLogist-logue.github.io/stardew-money/static/js/453.5d79b40f.chunk.js",
+    "index.html": "/BioLogist-logue.github.io/stardew-money/index.html",
+    "main.e6c13ad2.css.map": "/BioLogist-logue.github.io/stardew-money/static/css/main.e6c13ad2.css.map",
+    "main.80f1cee8.js.map": "/BioLogist-logue.github.io/stardew-money/static/js/main.80f1cee8.js.map",
+    "453.5d79b40f.chunk.js.map": "/BioLogist-logue.github.io/stardew-money/static/js/453.5d79b40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.80f1cee8.js"
+  ]
+}
