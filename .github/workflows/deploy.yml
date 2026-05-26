@@ -1,0 +1,31 @@
+name: Deploy stardew-money
+
+on:
+  push:
+    branches:
+      - main # 혹은 master (주인님의 메인 브랜치 이름)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Project
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # Vite 프로젝트면 dist, Create React App이면 build로 수정하십시오!
+          branch: gh-pages
